@@ -147,17 +147,7 @@ this.callSuccess = function(response){
         $twitterAtag.append($twitterLogo);
 
     })();
-
-    // $titleDiv.append($twitterAtag, $name, $aTag);
-	// $('.playerTweets').append($titleDiv, $tweet);
-	// $tweet.append(response.info.status.text);
-	// // $('.playerTweets').append($tweet);
-	// $aTag.append($youtubeLogo);
-	// $twitterAtag.append($twitterLogo);
-
-
 };
-
 this.callError = function(response){
 	console.log('Error: ',response)
 }
