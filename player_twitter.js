@@ -142,7 +142,6 @@ this.callSuccess = function(response){
         // $('.playerTweets').append($tweet);
         $aTag.append($youtubeLogo);
         $twitterAtag.append($twitterLogo);
-
     })();
 };
 this.callError = function(response){
