@@ -101,10 +101,7 @@ this.callSuccess = function(response){
 	});
 	var $name = $('<div>',{
 		text: response.info.name,
-		class: 'tweetName',
-		css: {
-			'font-size': '1em'
-		}
+		class: 'tweetName'
 	});
 	var $tweet = $('<div>',{
 		class: 'twitterPost'
@@ -145,7 +142,6 @@ this.callSuccess = function(response){
         // $('.playerTweets').append($tweet);
         $aTag.append($youtubeLogo);
         $twitterAtag.append($twitterLogo);
-
     })();
 };
 this.callError = function(response){
